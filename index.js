@@ -11,14 +11,14 @@ function happyHolidaysTo(name) {
 
 happyHolidaysTo(you);
 
-function happyHolidayTo(holiday, name){
-  var greeting = 'Happy ${holiday}, '${name}!''
+function happyHolidayTo(holiday, name) {
+  var greeting = 'Happy ${holiday}, '${name}!'';
   return greeting;
 }
 
 happyHolidayTo('Independence Day, you');
 
-function holidayCountdown(holiday, days){
+function holidayCountdown(holiday, days) {
   var greeting = 'It\'s '${days}' days until '${holiday}!';
   return greeting;
 }
