@@ -5,22 +5,19 @@ function happyHolidays() {
 happyHolidays();
 
 function happyHolidaysTo(name) {
-  var greeting = 'Happy holidays, '${name}!'';
-  return greeting;
+  return = 'Happy holidays, '${name}!'';
 }
 
 happyHolidaysTo(you);
 
 function happyHolidayTo(holiday, name) {
-  var greeting = 'Happy ${holiday}, '${name}!'';
-  return greeting;
+  return = 'Happy '${holiday}', '${name}!'';
 }
 
 happyHolidayTo('Independence Day, you');
 
 function holidayCountdown(holiday, days) {
-  var greeting = 'It\'s '${days}' days until '${holiday}!';
-  return greeting;
+  return = 'It\'s '${days}' days until '${holiday}!';
 }
 
 holidayCountdown(20, 'Mother\'s Day');
